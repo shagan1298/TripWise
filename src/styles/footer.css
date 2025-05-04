@@ -1,0 +1,130 @@
+footer {
+    background-color: #070068;
+    color: white;
+    padding: 40px 5%;
+    margin-top: auto;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #2563eb;
+  }
+
+  .footer-section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+
+  .footer-section a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .social-icons {
+margin-top: 20px;
+}
+
+.social-icons a {
+text-decoration: none;
+margin: 0 10px;
+color: #fff;
+font-size: 20px;
+transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+transform: scale(1.2);
+color: #4A90E2;
+}
+
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .copyright {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* Form Styles */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .contact-form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+
+  .contact-form button:hover {
+    background-color: #2563eb;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 15px 3%;
+    }
+
+    .logo span {
+      font-size: 20px;
+    }
+
+    .nav-links {
+      gap: 15px;
+    }
+
+    .quote {
+      font-size: 20px;
+    }
+
+    .footer-content {
+      flex-direction: column;
+    }
+
+    .footer-section {
+      margin-bottom: 30px;
+    }
+}
