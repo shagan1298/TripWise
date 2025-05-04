@@ -83,4 +83,6 @@ Example structure (Realtime Database paths):
 - **Avatar**: DiceBear API
 
 
-![User Flow Diagram](travel-budget-tool/src/assets/User%20Flow%20Diagram.png)
+<!-- ![User Flow Diagram](travel-budget-tool/src/assets/User%20Flow%20Diagram.png) -->
+![User Flow Diagram](src/assets/User%20Flow%20Diagram.png)
+
